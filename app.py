@@ -10,7 +10,7 @@ st.set_page_config(page_title="AI Weather Alert System", layout="wide")
 st.title("🚨 AI Extreme Weather Early Warning System")
 
 # 🔴 PASTE YOUR GOOGLE DRIVE FOLDER ID HERE
-FOLDER_ID = "https://drive.google.com/drive/folders/1zda4LlG8OaOAYxT_hmtjTMd3tq3b8Zlg?usp=drive_link"
+FOLDER_ID = "https://drive.google.com/drive/folders/1zda4LlG8OaOAYxT_hmtjTMd3tq3b8Zlg?usp=sharinghttps://drive.google.com/drive/folders/1zda4LlG8OaOAYxT_hmtjTMd3tq3b8Zlg?usp=sharing"
 
 FILES = [
     "bengaluru.csv","bombay.csv","delhi.csv",
@@ -115,3 +115,4 @@ elif disaster_pred == 3:
     st.error("🚨 STORM WARNING")
 
 st.line_chart(city_df.set_index("date_time")["tempC"])
+
