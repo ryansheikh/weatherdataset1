@@ -6,4 +6,5 @@ joblib
 streamlit
 scipy
 matplotlib
+gdown
 seaborn
